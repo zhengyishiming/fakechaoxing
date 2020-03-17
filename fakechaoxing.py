@@ -58,7 +58,7 @@ def get_lesson(content_id):
             print(str(i['label'])+"  "+i['name'])
     for i in data3:
         ids[i['label']]=i['id']
-    num=input("请输入序号:")
+    num=input("请输入序号:")#序号是什么？？？
     something3['knowledgeid']=ids[num]
     fakechaoxing['nodeId']=ids[num]
     get_something(ids[num],data2_json['id'])
